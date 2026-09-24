@@ -5134,7 +5134,7 @@ SETUP_SYNCSTARTDELAY_DESC
 	PL	W przypadku zsynchronizowania kilku odtwarzaczy program Lyrion Music Server wysyła do każdego odtwarzacza polecenie rozpoczęcia odtwarzania utworu w tym samym czasie. Program musi sprawdzić, czy każdy odtwarzacz ma czas na odebranie polecenia rozpoczęcia przed rozpoczęciem jednoczesnego odtwarzania, więc wysyła wcześniej polecenie rozpoczęcia, a odtwarzacze rozpoczynają pracę w odpowiedniej chwili. W przypadku nadmiernego przeciążenia sieci, które występuje szczególnie wtedy, gdy w sieciach standardowych i bezprzewodowych używana jest duża liczba odtwarzaczy, domyślne opóźnienie o długości 200 ms może być niewystarczające. W razie potrzeby wartość domyślną można zmienić tutaj.
 	PT	Quando multiplos reprodutores estiverem sincronizados o Lyrion Music Server instruirá todos para começarem cada musica ao mesmo tempo. Necessita pois que cada reprodutor tenha o tempo necessario para receber o comando para iniciar a reprodução antes que todos se iniciem juntos. Para isso envia o comando antes do tempo e os reprodutores esperam até ao momento correcto para iniciaram a reprodução. Se existir uma congestão de trafego excessiva na rede física ou wireless então o valor por defeito de 200ms pode não ser suficiente. Poderá alterar esse valor aqui se for necessario.
 	RU	При синхронизации нескольких плееров Lyrion Music Server дает каждому из них команду начать воспроизведение дорожки в одно и то же время. Для этого необходимо убедиться, что каждый плеер получит команду запуска до всеобщего начала воспроизведения, поэтому данная команда отправляется ему заранее. После получения команды каждый плеер ожидает запуска. При сильной загрузке сети, что особенно характерно для сетей со множеством плееров и для беспроводных сетей, задержка по умолчанию, равная 200 мс, может быть недостаточной. При необходимости это значение можно изменить.
-	SV	När flera spelare synkroniserats ser Lyrion Music Server till att alla spelare börjar spela upp låten samtidigt. Det måste finnas tid för startkommandot att gå fram till var och en av spelarna innan låten börjar spelas upp. Därför skickas kommandot i förväg, och spelarna väntar sedan till rätt startögonblick. Om trafiken på nätverket är mycket tät, något som kan hända framför allt när många spelare anslutits och med trådlösa nätverk, kanske inte standardfördröjningen på 200 millisekunder räcker till. Du kan ändra standardinställningen här vid behov.
+	SV	När flera spelare synkroniserats ser Lyrion Music Server till att alla spelare börjar spela upp låten samtidigt. Det måste finnas tid för startkommandot att komma fram till var och en av spelarna innan låten börjar spelas upp. Därför skickas kommandot i förväg, och spelarna väntar sedan till rätt startögonblick. Om trafiken på nätverket är mycket hög, något som kan hända framför allt när många spelare anslutits och med trådlösa nätverk, kanske inte standardfördröjningen på 200 millisekunder räcker till. Du kan ändra standardinställningen här vid behov.
 	ZH_CN	当多个播放器同步时，Lyrion Music Server告诉每个播放器同时开始曲目。它需要确保每个播放器在一起开始之前都有时间接收开始命令，因此它会提前发送开始命令，每个播放器都会等待合适的时机开始。如果存在过度的网络拥塞，尤其是在网络上有许多播放器和无线网络的情况下，那么默认的200ms延迟可能不够。如有必要，您可以在此处更改默认值。
 
 SETUP_STARTDELAY
@@ -5170,7 +5170,7 @@ SETUP_STARTDELAY_DESC
 	PL	Rozpoczęcie odtwarzania (zanim usłyszysz dźwięk) po przetworzeniu przez odtwarzacz polecenia uruchomienia z programu Lyrion Music Server może być zauważalnie opóźnione. Może to mieć miejsce w przypadku korzystania z wyjść cyfrowych (w zależności od podłączonych urządzeń) lub odtwarzaczy programowych na niektórych platformach. W takich przypadkach opóźnienie to można ustawić tutaj, aby program Lyrion Music Server uruchomił odtwarzacz odpowiednio wcześniej w celu jednoczesnego uruchomienia wszystkich zsynchronizowanych odtwarzaczy. Uwaga: opcja ta stanowi dodatek dla ustawienia „Opóźnienie dźwięku odtwarzacza” (poniżej).
 	PT	Um reprdutor poderá demorar a começar a tocar (antes de se ouvir o audio) depois de processar o comando de inicio de reprodução do Lyrion Music Server. Pode ser o caso de saídas digitais (dependendo do equipamento de ligação) ou de reprodutores via software em algumas plataformas. Em alguns casos esse atraso poderá ser definido aqui para que o Lyrion Music Server saiba que quanto tempo antes deverá inciar a reprodução neste reprodutor para que a musica comece simultaneamente em todos os reprodutores sincronizados. Nota: Este valor é adicional a qualquer configuração no "Delay no Audio do Reprodutor" (abaixo).
 	RU	После обработки команды запуска Lyrion Music Server плеер может начать воспроизведение лишь через некоторое время (до того, как появится звук). Обычно это происходит при работе с цифровыми выходами (в зависимости от подключенного оборудования) или с программными плеерами на некоторых платформах. В этих случаях можно настроить длительность задержки таким образом, чтобы Lyrion Music Server запускал данный плеер заблаговременно и звук со всех синхронизованных плееров появлялся в одно и то же время. Примечание: этот параметр дополняет любое из текущих значений "Задержка звука плеера" (см. ниже).
-	SV	Det kan ta en ganska lång stund från det att en spelare tar emot startkommandot från Lyrion Music Server till det att du hör musiken börja spelas upp. Det här kan inträffa när digitala utgångar används (beroende på den anslutna utrustningen) eller med programvarubaserade spelare på vissa plattformar. För att undvika problemet kan du ange fördröjningen här. Då kan den här spelaren startas motsvarande antal sekunder i förväg, så att ljudet från alla de synkroniserade spelarna börjar spelas upp samtidigt. Obs! det här läggs till eventuell Ljudfördröjning för spelare (se nedan).
+	SV	Det kan ta en ganska lång stund från det att en spelare tar emot startkommandot från Lyrion Music Server till det att du hör musiken börja spelas upp. Det här kan inträffa när digitala utgångar används (beroende på den anslutna utrustningen) eller med programvarubaserade spelare på vissa plattformar. För att undvika problemet kan du ange fördröjningen här. Då kan den här spelaren startas motsvarande antal sekunder i förväg, så att ljudet från alla de synkroniserade spelarna börjar spelas upp samtidigt. Obs! det här läggs till eventuell Ljudfördröjning för spelare (se här nedanför).
 	ZH_CN	即使多个播放器在完美同步的情况下开始播放曲目，它们也可能随着时间的推移而偏离（通常在几分钟内）。如果同时听几个播放器的输出，超过30毫秒的差异是可听的。Lyrion Music Server通过不断跟踪每个播放器播放了多少，并在必要时进行小调整来解决这个问题。您可以启用或禁用此功能。
 
 SETUP_MAINTAINSYNC
@@ -5618,7 +5618,7 @@ SETUP_REPLAYGAINMODE_DESC
 	NO	Enkelte lydspor har informasjon om volumjusteringer, eller «Replay Gain», som kan brukes under avspilling for å sikre at spor og album får samme lydnivå. Spilleren kan bruke denne informasjonen hvis den finnes. «Track gain» kan brukes til å sikre at alle sanger spilles like høyt. «Album gain» kan brukes til å sikre at album spilles med samme lydstyrke, uten at variasjoner mellom sporene blir borte. «Smart gain» bruker «Album gain» når flere sanger fra samme album spilles etter hverandre, men «Track gain» i spillelister som blander spor fra ulike album.
 	PL	Niektóre utwory audio zwierają informacje o regulacji głośności lub wzmocnieniu przy ponownym odtwarzaniu, których można użyć podczas odtwarzania w celu uzyskania jednakowej głośności odtwarzania utworów i albumów. Odtwarzacz może użyć tych informacji, jeżeli są dostępne. Opcja „Wzmocnienie utworu” umożliwia uzyskanie jednakowej głośności wszystkich utworów. Opcja „Wzmocnienie albumu” umożliwia uzyskanie jednakowej głośności albumów, ale różnice głośności między utworami w albumie zostaną zachowane. Opcja „Inteligentne” dotycząca wzmocnienia korzysta ze wzmocnienia albumu, jeżeli kolejne utwory pochodzą z tego samego albumu lub wzmocnienia utworu dla mieszanej listy odtwarzania.
 	RU	На некоторых аудиодорожках содержатся сведения выравнивания громкости (алгоритм Replay Gain), которые обеспечивают одинаковую громкость воспроизведения дорожек и альбомов. Плеер может использовать эту информацию (если она есть). При выравнивании громкости по дорожкам достигается одинаковая громкость всех дорожек. При выравнивании громкости по альбомам — одинаковая громкость для всех альбомов, при этом различия в громкости дорожек в пределах одного альбома сохраняются. При интеллектуальном выравнивании используется выравнивание по альбомам, если последующие песни входят в тот же альбом, либо выравнивание по дорожкам, если плей-лист состоит из песен разных альбомов.
-	SV	Vissa ljudspår innehåller volymjusteringsinformation (Replay Gain), dessa kan användas för att anpassa volymen av de enskilda spåren. Volymutjämning av spår används för att se till att alla spår i en blandad spellista spelas med samma volym. Volymutjämning av album används för anpassa volymen av alla spår på ett album. Smart volymutjämning innebär att volymutjämningen av album används när spår som spelas upp efter varandra kommer från samma album, medan volymutjämningen av spår används med blandade spellistor.
+	SV	Vissa ljudspår innehåller volymjusteringsinformation (Replay Gain), den kan användas för att anpassa volymen av de enskilda spåren. Volymutjämning av spår används för att se till att alla spår i en blandad spellista spelas med samma volym. Volymutjämning av album används för anpassa volymen av alla spår på ett album. Smart volymutjämning innebär att volymutjämningen av album används när spår som spelas upp efter varandra kommer från samma album, medan volymutjämningen av spår används med blandade spellistor.
 	ZH_CN	某些音轨包含音量调节或“回放增益”信息，这些信息可在播放过程中使用，以确保曲目和专辑听起来同样响亮。如果存在此信息，玩家可以使用它。“曲目增益”可用于确保所有曲目听起来都同样响亮。“专辑增益”可用于确保所有专辑听起来都同样响亮，但专辑中曲目之间的音量差异得以保留。“智能”增益选择使用专辑增益，如果连续的歌曲来自同一专辑或混合播放列表的曲目增益。
 
 SETUP_REPLAYGAIN_REMOTE
@@ -5670,7 +5670,7 @@ SETUP_REPLAYGAIN_LOCAL_DESC
 	NL	Niet alle lokale muziekbestanden bevatten 'Replay Gain'-informatie. Wanneer je 'volumeaanpassing van nummers' of 'slimme' aanpassingsselectie gebruikt om een mix van nummers met en zonder deze informatie af te spelen, kunnen er grote volumeverschillen tussen nummers ontstaan. Stel een standaardwaarde in die moet worden toegepast op nummers zonder 'Replay Gain'-informatie om dit effect te beperken.
 	NO	Ikke alle lokale musikkfiler inneholder «Replay Gain»-informasjon. Hvis du bruker «Track gain» eller «Smart gain» når du spiller av en blanding av spor med og uten denne informasjonen, kan det oppstå store volumendringer mellom sporene. Sett en standardjustering som skal brukes på spor uten «Replay Gain»-informasjon for å redusere dette.
 	PL	Nie wszystkie lokalne utwory zawierają informacje „Replay Gain”. Podczas korzystania z opcji „Wzmocnienie utworu” lub „Inteligentne” dotyczącej wzmocnienia do odtwarzania mieszanki utworów z tymi informacjami i bez nich mogą wystąpić duże zmiany głośności między utworami. Ustal domyślną wartość korekty, która będzie stosowana do utworów bez informacji „Replay Gain”, aby ograniczyć to zjawisko.
-	SV	Alla lokala spår innehåller inte information om "Replay Gain". När du använder "Volymutjämning av spår" eller "Smart volymjustering" för att spela en blandning av spår med och utan denna information kan stora volymskillnader uppstå mellan spåren. Ange ett standardvärde för volymjustering som ska användas för spår utan "Replay Gain"-information för att minska detta.
+	SV	Alla lokala spår innehåller kanske inte information om "Replay Gain". När du använder "Volymutjämning av spår" eller "Smart volymjustering" för att spela en blandning av spår med och utan denna information kan stora volymskillnader uppstå mellan spåren. Ange ett standardvärde för volymjustering som ska användas för spår utan "Replay Gain"-information för att minska denna skillnad.
 	ZH_CN	并非所有本地曲目都包含“回放增益”信息。当使用“曲目增益”或“智能”增益模式播放同时包含和不包含此信息的曲目时，曲目之间可能会出现较大的音量变化。定义一个默认调整值，该值应应用于没有“回放增益”信息的曲目，以减轻这种情况。
 
 REPLAYGAIN_DISABLED
@@ -5723,7 +5723,7 @@ REPLAYGAIN_TRACK_GAIN
 	NO	Gain for spor
 	PL	Wzmocnienie utworu
 	RU	Выровнять по дорожкам
-	SV	Volymutjämning av spår
+	SV	Volymjustering av spår
 	ZH_CN	利用音轨增益（如有）
 
 REPLAYGAIN_ALBUM_GAIN
@@ -5741,7 +5741,7 @@ REPLAYGAIN_ALBUM_GAIN
 	NO	Album gain
 	PL	Wzmocnienie albumu
 	RU	Выровнять по альбомам
-	SV	Volymutjämning av album
+	SV	Volymjustering av album
 	ZH_CN	利用专辑增益（如有）
 
 REPLAYGAIN_SMART_GAIN
@@ -6195,7 +6195,7 @@ SETUP_TRANSITIONSMART_ON
 	NO	Aktiver Smart krysstoning
 	PL	Włącz inteligentne przenikanie
 	RU	Вкл. интеллект. перекрестное затухание
-	SV	Aktivera smart korstoning
+	SV	Aktivera Smart korstoning
 	ZH_CN	启用智能音频同时淡出淡入
 
 SETUP_TRANSITIONSMART_OFF
@@ -6212,7 +6212,7 @@ SETUP_TRANSITIONSMART_OFF
 	NO	Deaktiver Smart krysstoning
 	PL	Wyłącz inteligentne przenikanie
 	RU	Откл. интеллект. перекрестное затухание
-	SV	Avaktivera smart korstoning
+	SV	Avaktivera Smart korstoning
 	ZH_CN	禁用智能音频同时淡出淡入
 
 SETUP_TRANSITIONSAMPLERESTRICTION
@@ -6696,7 +6696,7 @@ SETUP_SKIPSENTINEL
 	NL	Bestandsnaam voor uitsluitingen
 	HU	A megadott fájlnév kihagyása
 	PT	Excluir ficheiro deste tipo
-	SV	Namn på "Hoppa över" flagg-fil
+	SV	Namn på fil för att skippa mapp
 	ZH_CN	跳过哨兵文件名
 
 SETUP_SKIPSENTINEL_DESC
@@ -6809,7 +6809,7 @@ SETUP_BAD_FILE
 	NO	Ops! «%s» er ikke en gyldig fil. Prøv igjen.
 	PL	Błąd - „%s” nie jest prawidłowym plikiem. Spróbuj ponownie.
 	RU	"%s" не является допустимым файлом. Повторите попытку.
-	SV	Hoppsan! %s verkar vara en ogiltig fil. Försök igen.
+	SV	Hoppsan! "%s" verkar vara en ogiltig fil. Försök igen.
 	ZH_CN	"%s"似乎不是一个合法文件。请再次尝试。
 
 SETUP_BAD_DIRECTORY
@@ -6829,7 +6829,7 @@ SETUP_BAD_DIRECTORY
 	PL	Błąd - „%s” nie jest prawidłowym katalogiem. Spróbuj ponownie.
 	PT	A Pasta "%s" não é válida. Tente de novo.
 	RU	"%s" не является допустимым каталогом. Попробуйте еще раз.
-	SV	Hoppsan! %s verkar vara en ogiltig mapp. Försök igen.
+	SV	Hoppsan! "%s" verkar vara en ogiltig mapp. Försök igen.
 	ZH_CN	"%s"似乎不是一个合法文件夹。请再次尝试。
 
 SETUP_PLAYLISTDIR_DESC
@@ -7266,7 +7266,6 @@ SETUP_EXTENSIONS_CATEGORY_INFORMATION
 	NO	Informasjon
 	PL	Informacje
 	RU	Информация
-	SV	Information
 	ZH_CN	信息
 
 SETUP_EXTENSIONS_CATEGORY_MISC
@@ -7344,7 +7343,7 @@ SETUP_EXTENSIONS_CATEGORY_SKIN
 	EN	Skins
 	FR	Thèmes (Skins)
 	HU	Felületek ("bőrök")
-	SV	Utseende (Skins)
+	SV	Utseende (skal)
 	ZH_CN	外观
 
 SETUP_EXTENSIONS_CATEGORY_TOOLS
@@ -7371,7 +7370,7 @@ SETUP_EXTENSIONS_REPOS
 	NO	Ekstra lagre
 	PL	Dodatkowe repozytoria
 	RU	Дополнительные репозитории
-	SV	Ytterligare databaser
+	SV	Ytterligare arkiv
 	ZH_CN	其他存储库
 
 SETUP_EXTENSIONS_REPOS_DESC
@@ -7389,7 +7388,7 @@ SETUP_EXTENSIONS_REPOS_DESC
 	PL	Kolejne rozszerzenia innych firm można dodać, wprowadzając poniżej adres URL repozytorium.
 	PT	Pode juntar repositórios de extensões de terceiros adicionando a URL do cada repositório aqui em baixo
 	RU	Чтобы добавить дополнительный сторонний репозиторий расширений, введите ниже его URL.
-	SV	Ange adressen nedan om du vill lägga till databaser för tredjepartstillägg.
+	SV	Ange adressen nedan om du vill lägga till arkiv för tredjepartstillägg.
 	ZH_CN	您可以通过在下面输入存储库的URL来添加其他第三方扩展存储库。
 
 SETUP_EXTENSIONS_REPOS_WARNING
@@ -7407,7 +7406,7 @@ SETUP_EXTENSIONS_REPOS_WARNING
 	PL	<b>Ostrzeżenie:</b> Ponieważ serwer automatycznie pobiera oprogramowanie z wybranych repozytoriów, należy upewnić się, że są to zaufane źródła.
 	PT	<b>Advertência</b> Dado que o servidor fará o download automáticamente do software dos repositórios que defina, verifique que confía no propietário do repositório.
 	RU	<b>Предупреждение.</b> Вы должны полностью доверять владельцу репозитория, поскольку сервер будет загружать из него ПО автоматически.
-	SV	<b>Obs!</b> Eftersom servern laddar ner program automatiskt från den server du anger är det viktigt att du litar på databasens ägare.
+	SV	<b>Obs!</b> Eftersom servern laddar ner program automatiskt från den server du anger är det viktigt att du litar på arkivets ägare.
 	ZH_CN	<b>警告：</b>由于服务器将从您定义的存储库中自动下载软件，请确保您信任存储库的所有者。
 
 SETUP_EXTENSIONS_RESTART_MSG
@@ -7442,7 +7441,7 @@ SETUP_EXTENSIONS_REPO_ERROR
 	NO	Korrupt lager
 	PL	Złe repozytorium
 	RU	Неисправный репозиторий
-	SV	Felaktig databas
+	SV	Felaktig arkiv
 	ZH_CN	错误的存储库
 
 SETUP_EXTENSIONS_AUTHOR
@@ -7546,7 +7545,7 @@ SETUP_EXTENSIONS_UPDATES
 	NO	Oppdaterte plugin-moduler er tilgjengelige
 	PL	Dostępne są zaktualizowane dodatki.
 	RU	Доступны обновленные подключаемые модули
-	SV	Uppdaterade plugin-program tillgängliga
+	SV	Uppdaterade plugin-program är tillgängliga
 	ZH_CN	有可用的更新插件
 
 SETUP_EXTENSIONS_AUTO
@@ -7582,7 +7581,7 @@ SETUP_EXTENSIONS_AUTO_DESC
 	PL	Zezwala programowi Lyrion Music Server na automatyczne wyszukiwanie aktualizacji zainstalowanych dodatków oraz ich pobieranie i instalowanie. Jeśli ta opcja nie zostanie zaznaczona, na tej stronie ustawień dodatki można zaktualizować ręcznie.
 	PT	Permita que o Lyrion Music Server automaticamente procure actualizações dos plugins instalados, faça o seu download para que no proximo arranque do servdiro estejam prontos a a a serusados. Se esta opçãp não for selccionada poderá proceder à sua actualização nesta pagina.
 	RU	Разрешить серверу Squeezebox автоматически проверять наличие обновлений для установленных подключаемых модулей и загружать их для использования при следующем запуске сервера. Если этот параметр не выбран, можно загружать подключаемые модули вручную с этой страницы настройки.
-	SV	Tillåt Lyrion Music Server att automatiskt söka efter uppdateringar till installerade plugin-program och ladda ner den som är redo att användas när servern startas om nästa gång. Om alternativet inte väljs kan du uppdatera plugin-programmen manuellt via den här inställningssidan.
+	SV	Tillåt Lyrion Music Server att automatiskt söka efter uppdateringar till installerade plugin-program och ladda ner de som är redo att användas när servern startas om nästa gång. Om alternativet inte väljs kan du uppdatera plugin-programmen manuellt via den här inställningssidan.
 	ZH_CN	允许 Lyrion Music Server 自动检查已安装插件的更新并下载它们，以便在下次重新启动服务器时使用。如果未选择此选项，则可以通过此设置页面手动更新插件。
 
 SETUP_EXTENSIONS_WARNING_POPUP_OTHERREPO
@@ -7597,7 +7596,7 @@ SETUP_EXTENSIONS_WARNING_POPUP_OTHERREPO
 	IT	Per assistenza, rivolgersi all'autore del plugin.
 	NL	Neem contact op met de auteur van de plug-in voor ondersteuning.
 	NO	Du kan kontakte de som laget modulen for støtte.
-	SV	OBS! Användning av dessa plugin-program sker på eget ansvar. Du kan kontakta plugin-programmets upphovsman för hjälp.
+	SV	OBS! Användning av dessa plugin-program sker på eget ansvar. Du kan kontakta plugin-programmets upphovsperson för hjälp.
 	ZH_CN	请注意，使用第三方插件的风险由您自行承担。请联系插件作者以获取支持。
 
 SETUP_EXTENSIONS_RECOMMENDED_REPOSITORIES
@@ -7657,7 +7656,7 @@ SETUP_EXTENSIONS_USE_UNSUPPORTED_DESC
 	FR	AVERTISSEMENT - Il s'agit de plugins tiers dont le fonctionnement n'est pas garanti avec la version actuelle de Lyrion Music Server. Ils ont été abandonnés par leurs auteurs et ne sont plus maintenus. Dans le pire des cas, ils pourraient empêcher votre Lyrion Music Server de fonctionner. À utiliser à vos risques et périls.
 	NL	WAARSCHUWING - Dit zijn plug-ins van derden die niet gegarandeerd werken met de huidige versie van Lyrion Music Server. Ze worden niet langer onderhouden door hun auteurs. In het ergste geval kunnen ze schade toebrengen aan Lyrion Music Server. Gebruik op eigen risico.
 	HU	FIGYELMEZTETÉS – Ezek harmadik féltől származó beépülő modulok, amelyek nem garantáltan működnek a Lyrion Music Server jelenlegi verziójában. Szerzőik elhagyták őket, és már nem tartják karban. A legrosszabb esetben feltörhetik a Lyrion zeneszerverét. Használat csak saját felelősségre.
-	SV	OBS! Dessa tredjeparts plugin-program fungerar kanske inte med denna version av Lyrion Music Server. De underhålls inte längre aktivt av deras upphovsmän.
+	SV	OBS! Dessa tredjeparts plugin-program fungerar kanske inte med denna version av Lyrion Music Server. De underhålls inte längre aktivt av deras upphovspersoner.
 	ZH_CN	警告 - 这些是第三方插件，不能保证在 Lyrion Music Server 的当前版本中正常工作。它们已经被它们的作者遗弃，并且不再维护。最坏的情况下，它们可能会破坏您的 Lyrion Music Server。使用风险自负。
 
 SETUP_EXTENSIONS_TOGGLE_VIEW
@@ -7705,7 +7704,7 @@ SETUP_REFRESHRATE_DESC
 	NO	Angi tiden mellom hver oppdatering i nettleseren i sekunder. Når en sang spilles, foretar Lyrion Music Server en oppdatering mot slutten av sangen, selv om gjenværende tid er mindre enn angitt. (Standardverdi er 30, minimumsverdi er 2)
 	PL	Ustaw czas w sekundach do ponownego załadowania przeglądarki. Podczas odtwarzania utworu program Lyrion Music Server ustawi odświeżenie pod koniec utworu, jeżeli czas będzie krótszy od tej wartości (ustawienie domyślne to 30, minimalne to 2).
 	RU	Задайте время между перезагрузками браузера в секундах. При воспроизведении Lyrion Music Server будет делать обновление в конце песни, если ее длительность меньше этого значения. (По умолчанию — 30, минимум — 2.)
-	SV	Ange (i sekunder) med vilka tidsintervall webbläsaren ska uppdatera sidan.  Standardvärdet är 30 sekunder och minimivärdet är 2 sekunder. När en låt spelas upp sker uppdateringen mot slutet av låten om den är kortare än värdet som anges här.
+	SV	Ange (i sekunder) med vilka tidsintervall webbläsaren ska uppdatera sidan. Medan en låt spelas kommer Lyrion Music Server att ställa in uppdateringen nära slutet av låten om den förblivande speltiden är mindre än detta värde. (Standard är 30, minimum är 2).
 	ZH_CN	设置浏览器刷新的间隔时间。当播放歌曲时，如果设的值少于歌曲的长度服务器将在歌曲末端附近设置刷新。（缺省为30，极小值为2）
 
 SETUP_COVERART
@@ -8006,7 +8005,7 @@ SETUP_CHECKVERSION_DESC
 	FR	Le serveur peut automatiquement vérifier la disponibilité d'une nouvelle version du logiciel. Le cas échéant, un message dans l'interface Web indique qu'une nouvelle version est disponible. Veuillez noter que le programme vérifiera toujours les mises à jour des plug-ins selon les intervalles sélectionnés, même si les vérifications logicielles sont désactivées.
 	HU	A Lyrion Music Server automatikusan ellenőrzi, hogy elérhető-e a szoftver frissített verziója.  Ha igen, akkor egy üzenet jelenik meg a Lyrion Music Server webes felületén.
 	NL	Lyrion Music Server kan automatisch kijken of er een nieuwere versie van de software beschikbaar is. Als dit zo is, verschijnt er een bericht in de webinterface van Lyrion Music Server. Houd er rekening mee dat het programma altijd zal controleren op updates voor plug-ins volgens de geselecteerde intervallen, zelfs als softwarecontroles zijn uitgeschakeld.
-	SV	Lyrion Music Server kan automatiskt kontrollera on det finns en nyare version tillgänglig. Om så är fallet visas ett meddelande in Lyrion Music servers webgränssnitt. Observera att Lyrion Music Server kommer alltid att kontrollera om det finns nya versioner av de installerade plugin-programmen.
+	SV	Lyrion Music Server kan automatiskt kontrollera on det finns en nyare version tillgänglig. Om så är fallet visas ett meddelande i Lyrion Music Servers webgränssnitt. Observera att Lyrion Music Server kommer alltid att kontrollera om det finns nya versioner av de installerade plugin-programmen.
 	ZH_CN	Lyrion Music Server 可以自动检查是否有更新的软件版本可用。如果有，则在 Lyrion Music Server 的网页界面中会显示一条消息。
 
 SETUP_CHECKVERSION_1
@@ -8724,7 +8723,7 @@ SETUP_ROLESINARTISTS
 	PL	Wykonawca utworu, Kompozytor, zespół i orkiestra jako wykonawcy
 	PT	Artista da pista, Compositor, Banda e Orquestra em Artistas
 	RU	Исполнитель дорожки, Поле "Исполнители": композитор, группа и оркестр
-	SV	Spårets artist, Kompositör, band och orkester i Artister
+	SV	Välj roller att inkludera tillsammans med Artister
 	ZH_CN	音轨艺人有关艺人的作曲家及乐队信息
 
 SETUP_ROLESINARTISTS_DESC
@@ -8864,7 +8863,7 @@ SETUP_RESHUFFLEONREPEAT_DESC
 	PL	Program Lyrion Music Server może, w razie potrzeby, zmienić kolejność utworów w liście odtwarzanej losowo, każdorazowo po odtworzeniu wszystkich utworów z listy.
 	PT	O servidor pode re-misturar a lista de músicas no final dela, se necessário.
 	RU	Lyrion Music Server может повторно перемешивать плей-листы после воспроизведения всех песен списка.
-	SV	Lyrion Music Server kan blanda om blandade spellistor varje gång hela listan gåtts igenom.
+	SV	Lyrion Music Server kan blanda om spellistor varje gång hela listan gåtts igenom.
 	ZH_CN	如有必要，服务器可以把随机抽样后的播放表在每一次播放时再度抽样决定次序。
 
 SETUP_RESHUFFLEONREPEAT_0
@@ -9167,6 +9166,7 @@ SETUP_SCAN_ON_PREF_CHANGE
 	NL	Start scan bij aanpassen van voorkeuren
 	NO	Start gjennomsøking når innstillinger endres
 	PL	Uruchom przeszukiwanie biblioteki po zmianie ustawień
+	SV	Starta  skanning om inställningarna ändras
 	ZH_CN	在更改设置时触发扫描
 
 SETUP_SCAN_ON_PREF_CHANGE_DESC
@@ -9179,7 +9179,7 @@ SETUP_SCAN_ON_PREF_CHANGE_DESC
 	NL	Sommige voorkeuren vragen om het volledig wissen van jouw mediabibliotheek en een herscan. Deze scan kan automatisch worden gestart als je dat wilt. Het tegelijkertijd aanpassen van verschillende voorkeuren kan leiden tot meerdere scans die in een wachtrij worden geplaatst.
 	NO	Noen innstillinger krever en fullstendig gjennomsøking av musikksamlingen for å tre i kraft. Denne gjennomsøkingen kan om ønskelig startes automatisk, men det kan føre til at flere gjennomsøkinger havner i kø hvis du endrer flere innstillinger samtidig.
 	PL	Niektóre ustawienia wymagają ponownego przeszukania całej Twojej biblioteki multimedialnej do poprawnego działania. Ten proces może być uruchamiany automatycznie, lecz może spowodować zakolejkowanie wielokrotnego przeszukiwania biblioteki w przypadku zmiany kilku ustawień naraz.
-	SV	Ändringar av somliga inställningar orsakar en komplett ny inskanning av mediebiblioteket.En sådan skan kan utföras automatiskt, detta kan emellertid leda till a flera sådan skannar köas upp och startar efter varandra om flera sådana ändringar görs.
+	SV	Ändringar av somliga inställningar orsakar en komplett ny inskanning av mediebiblioteket. En sådan skan kan utföras automatiskt, detta kan emellertid leda till a flera sådan skannar köas upp och startar efter varandra om flera sådana ändringar görs.
 	ZH_CN	一些首选项需要完全清除并重新扫描您的媒体库才能生效。如果您希望，此扫描可以自动触发。但是，如果您同时更改多个首选项，可能会导致多个扫描排队。
 
 SETUP_SCAN_ON_PREF_CHANGE_ON
@@ -9382,7 +9382,7 @@ SETUP_ENHANCEDHTTP
 	FR	Mode de streaming HTTP(S)
 	HU	Streamelési mód a HTTP(S) számára
 	NL	Streammethode voor HTTP(S)
-	SV	Strömmningsmodus (HTTP(S)
+	SV	Strömmningsmodus HTTP(S)
 	ZH_CN	HTTP(S)流媒体模式
 
 SETUP_ENHANCEDHTTP_DESC
