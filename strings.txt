@@ -139,7 +139,7 @@ LOADING_SQUEEZEBOX_SERVER
 	PL	Trwa ładowanie programu Lyrion Music Server...
 	PT	Carregando Lyrion Music Server...
 	RU	Загрузка Lyrion Music Server...
-	SV	Lyrion Music Server startas
+	SV	Startar Lyrion Music Server... 
 	ZH_CN	正在加载Lyrion Music Server...
 
 EN_SKIN
@@ -1185,7 +1185,7 @@ REPEAT_ONE
 	PL	Powtórz bieżący utwór
 	PT	Repetir a música actual
 	RU	Повторить текущую песню
-	SV	Repetera aktuell låt
+	SV	Repetera denna låt
 	ZH_CN	重复一曲模式
 
 REPEAT_ONE_ABBR
@@ -1483,7 +1483,7 @@ UNDOCK_PLAYER_PANEL
 	PL	Oddokuj okienko odtwarzacza
 	PT	Desacoplar painel de reprodução
 	RU	Разблокировать панель плеера
-	SV	Frigör spelarpanelen
+	SV	Lossa spelarpanelen
 	ZH_CN	松开播放器面板
 
 ALARM
@@ -1705,7 +1705,7 @@ ALARM_ADD_DESC
 	PL	Możesz dodać dowolną liczbę alarmów. Każdy alarm może zostać uruchomiony codziennie, w wybranym dniu lub tylko raz. Aby rozpocząć dodawanie nowego alarmu, wybierz opcję „Dodaj alarm”.
 	PT	Pode adicionar tantos alarmes quantos queira. Cada alarme pode ser programado para que dispare diariamente, só em determinados dias ou em uma só vez. Seleccione "Adicione alarme" para criar um novo alarme.
 	RU	Можно добавить любое число будильников. Каждый будильник может звонить ежедневно, только по определенным дням или один раз. Щелкните "Добавить будильник", чтобы добавить новый будильник.
-	SV	Du kan ställa in hur många alarm du vill. För varje alarm kan du ange om det ska ringa varje dag, vissa bestämda dagar eller bara vid ett tillfälle. Välj Lägg till alarm om du vill lägga till ett nytt alarm.
+	SV	Du kan lägga till så många alarm du vill. Varje alarm kan ställas in så att det går igång varje dag, endast på vissa dagar eller bara en gång. Välj "Lägg till alarm" för att börja lägga till ett nytt alarm.
 	ZH_CN	您可以添加任意数量的闹钟。每个闹钟可以设置为每天、特定日期或仅一次响起。选择“添加闹钟”以开始添加新的闹钟。
 
 ALARM_NEW
@@ -2014,7 +2014,7 @@ ALARM_SNOOZE
 	PL	Drzemka...
 	PT	Activando a repetição do alarme...
 	RU	В режим повтора сигнала...
-	SV	Aktiverar snoozefunktion...
+	SV	Aktiverar snooze...
 	ZH_CN	闹钟暂停中
 
 ALARM_SNOOZE_ENDED
@@ -2032,7 +2032,7 @@ ALARM_SNOOZE_ENDED
 	PL	Drzemka zakończona
 	PT	Repetição terminada
 	RU	Выход из режима повторения сигнала
-	SV	Snoozefunktion avslutad
+	SV	Snooze är avslutad
 	ZH_CN	闹钟暂停结束
 
 SETUP_SNOOZE_MINUTES
@@ -2068,7 +2068,7 @@ SETUP_SNOOZE_MINUTES_DESC
 	PL	To ustawienie umożliwia określenie czasu wstrzymania alarmu po naciśnięciu przycisku drzemki.
 	PT	Esta opção permite que defina por quanto tempo o alarme pausa quando carrega no botão de Repetir (Snooze)
 	RU	С помощью этой настройки можно выбрать длительность паузы будильника после нажатия кнопки повтора сигнала.
-	SV	Med den här inställningen anger du hur länge alarmet ska avaktiveras när du trycker på snoozeknappen.
+	SV	Med den här inställningen väljer du hur länge alarmet ska pausas när du trycker på snoozeknappen.
 	ZH_CN	此设置允许您选择在按下暂停按钮时闹钟暂停多长时间。
 
 SETUP_ALARM_TIMEOUT
@@ -2104,7 +2104,7 @@ SETUP_ALARM_TIMEOUT_DESC
 	PL	To ustawienie umożliwia określenie czasu działania alarmu przed automatycznym zatrzymaniem. Ustawienie wartości 0 spowoduje działanie alarmów, aż do ręcznego zatrzymania.
 	PT	Esta opção permite-lhe definir por quanto tempo irão os alarmes tocar antes de pararem automaticamente. Se escolher 0 tocarão continuadamente até que manualmente os pare.
 	RU	С помощью данной настройки можно задать длительность звонка будильников до автоматической остановки. Если задано значение 0, звонки будильника можно остановить только вручную.
-	SV	Med den här inställningen anger du hur länge alarmen ringer innan de stängs av automatiskt. Om du anger 0 ringer alarmen tills de stängs av manuellt.
+	SV	Med den här inställningen väljer du hur länge alarmen ringer innan de stängs av automatiskt. Om du väljer 0 ringer alarmen tills de stängs av manuellt.
 	ZH_CN	此设置允许您选择闹钟在自动停止之前播放多长时间。如果设置为0，则闹钟将继续播放，直到手动停止。
 
 ALARM_STOPPED
@@ -2607,7 +2607,7 @@ WELCOME_TO_SQUEEZEPLAY
 	PL	SqueezePlay - Zapraszamy
 	PT	Bem-vindo ao Squeezeplay
 	RU	Добро пожаловать в SqueezePlay
-	SV	Välkommen till SqueezePlay
+	SV	Välkommen till SqueezePlay!
 	ZH_CN	欢迎使用SqueezePlay
 
 WELCOME_TO_CONTROLLER
@@ -2625,7 +2625,7 @@ WELCOME_TO_CONTROLLER
 	PL	Controller - Zapraszamy
 	PT	Bem-vindo ao Controller
 	RU	Добро пожаловать в Controller
-	SV	Välkommen till Controller
+	SV	Välkommen till Controller!
 	ZH_CN	欢迎使用Controller
 
 LOGIN
@@ -2683,7 +2683,7 @@ UPDATING_FIRMWARE_SQUEEZEBOX
 	PL	Aktualizowanie oprogramowania układowego urządzenia Squeezebox.
 	PT	Atualizando firmware ...
 	RU	Обновление микропрограммы Squeezebox.
-	SV	Uppdaterar Squeezebox inbyggda programvara
+	SV	Uppdaterar Squeezebox inbyggda programvara.
 	ZH_CN	更新Squeezebox固件
 
 UPDATING_FIRMWARE_SQUEEZEBOX2
@@ -2703,7 +2703,7 @@ UPDATING_FIRMWARE_SQUEEZEBOX2
 	PL	Aktualizowanie oprogramowania układowego urządzenia Squeezebox.
 	PT	Atualizando firmware ...
 	RU	Обновление микропрограммы Squeezebox.
-	SV	Uppdaterar Squeezebox inbyggda programvara
+	SV	Uppdaterar Squeezebox inbyggda programvara.
 	ZH_CN	更新Squeezebox固件
 
 UPDATING_FIRMWARE_TRANSPORTER
@@ -2723,7 +2723,7 @@ UPDATING_FIRMWARE_TRANSPORTER
 	PL	Aktualizowanie oprogramowania układowego urządzenia Transporter.
 	PT	Atualizando firmware ...
 	RU	Обновление микропрограммы Transporter.
-	SV	Uppdaterar Transporters inbyggda programvara
+	SV	Uppdaterar Transporters inbyggda programvara.
 	ZH_CN	更新Transporter固件
 
 UPDATING_FIRMWARE_RECEIVER
@@ -2759,7 +2759,7 @@ UPDATING_FIRMWARE_BOOM
 	PL	Aktualizowanie oprogramowania układowego.
 	PT	Actualizando firmware.
 	RU	Обновление микропрограммы.
-	SV	Inbyggt program uppdateras
+	SV	Uppdaterar inbyggd programvara.
 	ZH_CN	更新固件
 
 FIRMWARE_MISSING
@@ -2778,7 +2778,7 @@ FIRMWARE_MISSING
 	PL	Błąd: brak oprogramowania układowego
 	PT	Error: Firmware em falta
 	RU	Ошибка: отсутствует микропрограмма
-	SV	Fel: Inbyggd maskinvara saknas.
+	SV	Fel: Inbyggd programvara saknas.
 	ZH_CN	失误：固件丢失
 
 FIRMWARE_MISSING_DESC
@@ -2988,7 +2988,7 @@ PROBLEM_OPENING_REMOTE_URL
 	PL	Błąd: nie można otworzyć zdalnego adresu URL
 	PT	Erro: Não foi possível abrir a URL remota
 	RU	Ошибка: сбой открытия удаленного URL
-	SV	Fel: Det går inte att öppna den externa webbadressen.
+	SV	Fel: Det går inte att öppna den externa webbadressen
 	ZH_CN	失误：无法连接网址
 
 PROBLEM_CONVERT_FILE
@@ -3134,7 +3134,7 @@ ASF_UNABLE_TO_PARSE
 	PL	Błąd: nie można przeanalizować strumienia audio ASF
 	PT	Erro: impossívelanalisar o fluxo audio ASF
 	RU	Ошибка: сбой анализа аудиопотока ASF
-	SV	Fel: Det går inte att tolka ASF-ljudströmmen.
+	SV	Fel: Kan inte tolka ASF-ljudströmmen.
 	ZH_CN	失误：无法解析音频流
 
 HOME
@@ -3208,7 +3208,7 @@ WEB_XML_ERROR
 	PL	Błąd podczas ładowania zdalnego źródła dla %s: (%s)
 	PT	Ocorreu um erro ao carregar o feed remoto de %s:  (%s)
 	RU	Ошибка при загрузке удаленного веб-канала для %s: (%s)
-	SV	Ett fel uppstod när fjärrflödet för %s lästes in: (%s)
+	SV	Det uppstod ett fel när fjärrflödet lästes för: (%s)
 	ZH_CN	载入远方信息时发生失误%s: (%s)
 
 XML_ERROR
@@ -3624,7 +3624,7 @@ SETUP_GROUP_MENUITEMS
 	NO	Tilpass hovedmenyen
 	PL	Dostosowanie głównego menu
 	PT	Personalização do Menu Inicial
-	SV	Konfigurering av huvudmenyn
+	SV	Anpassning av huvudmenyn
 	ZH_CN	主页菜单
 
 SETUP_GROUP_MENUITEMS_DESC
@@ -3645,7 +3645,7 @@ SETUP_GROUP_MENUITEMS_DESC
 	PL	Dostępne opcje można dostosować na najwyższym poziomie menu Strona główna ekranu odtwarzacza. Kliknij, aby przenieść pozycje w górę lub w dół albo usunąć pozycję menu. Kliknij przycisk „Dodaj”, aby ponownie dodać usunięte pozycje menu.
 	PT	Pode personalizar as opções disponíveis no menu inicial. Escolha as opções para mover para cima, para baixo, ou para apagar. Escolha "Adicionar" para adicionar um item ao menu.
 	RU	Можно настроить элементы, доступные для выбора в главном меню верхнего уровня на экране плеера. Щелкайте элементы меню, перемещая их вверх и вниз или удаляя. Нажмите кнопку "Добавить", чтобы вернуть удаленный элемент обратно в меню.
-	SV	Du kan anpassa vilka alternativ som visas på huvudmenyn på spelarens skärm. Flytta ett menyalternativ uppåt och nedåt eller ta bort alternativet genom att klicka. Klicka på Lägg till om du vill lägga till ett borttaget alternativ på menyn igen.
+	SV	Du kan anpassa vilka alternativ som visas på huvudmenyn på spelarens skärm. Flytta ett menyalternativ uppåt eller nedåt eller ta bort alternativet genom att klicka. Klicka på "Lägg till" om du vill lägga till ett borttaget alternativ på menyn igen.
 	ZH_CN	您可将播放器最高阶层的主页菜单加以用户化。单击以调整排序或除去该菜单项目。如要列入已被除去的菜单项目，请单击"Add"。
 
 SETUP_GROUP_NONMENUITEMS_INTRO
@@ -3704,7 +3704,7 @@ SETUP_ACTIVEFONT_DESC
 	PL	Przycisk SIZE na pilocie lub przyciski opcji poniżej umożliwiają przełączanie czcionek na wyświetlaczu odtwarzacza. Możliwe jest wybranie kolejności wyświetlania za pomocą menu poniżej.
 	PT	Pode usar o botão SIZE no comando ou os botões seguintes para alterar o tipo de letra no ecran do reprodutor. Pode alterar a ordem em que aparecem no menu abaixo
 	RU	С помощью кнопки SIZE пульта ДУ или нижеприведенных переключателей можно переключаться между шрифтами экрана плеера. Порядок их вывода можно задать с помощью следующих меню.
-	SV	Du kan använda knappen SIZE på fjärrkontrollen eller knapparna nedan för att byta teckensnitt på spelarens skärm. Du kan välja i vilken ordning de ska visas med hjälp av menyerna nedan.
+	SV	Du kan använda SIZEi-knappen på fjärrkontrollen eller knapparna här nedanför för att byta teckensnitt på spelarens skärm. Du kan välja i vilken ordning de ska visas med hjälp av menyerna här nedanför.
 	ZH_CN	您可使用遥控器的大小按钮或如下的无线电按钮设定播放器显示屏的字体大小。您可在如下的菜单设定它们出现的排序。
 
 SETUP_IDLEFONT
@@ -3744,7 +3744,7 @@ SETUP_IDLEFONT_DESC
 	PL	Gdy odtwarzacz działa w trybie gotowości, można użyć przycisku SIZE na pilocie lub przycisków opcji poniżej, aby zmienić czcionki wyświetlania zegara. Kolejność ich wyświetlania można wybrać z menu poniżej.
 	PT	Quando o reprodutor está em Standny, pode usar o botão SIZE no controle remoto ou os botões de opçãpo seguintes para alterar o tipo de letra no relógio. Pode definir a ordem em que aparecem nos menus seguintes.
 	RU	Когда плеер находится в режиме ожидания, с помощью кнопки SIZE на пульте ДУ или расположенных ниже переключателей можно изменять размеры шрифта экрана часов. Следующие меню позволяют выбрать порядок их отображения.
-	SV	När spelaren befinner sig i viloläge kan du använda knappen SIZE på fjärrkontrollen eller knapparna nedan för att byta teckensnitt på klockskärmen. Du kan välja i vilken ordning de ska visas med hjälp av menyerna nedan.
+	SV	När spelaren befinner sig i viloläge kan du använda SIZE-knappen på fjärrkontrollen eller knapparna här nedanför för att byta teckensnitt på klockskärmen. Du kan välja i vilken ordning de ska visas med hjälp av menyerna här nedanför.
 	ZH_CN	当播放器在备用状态时，您可使用遥控器的大小按钮或如下的无线电按钮设定播放器时间显示的字体大小。您可在如下的菜单设定它们出现的排序。
 
 SETUP_DOUBLESIZE
@@ -3884,7 +3884,7 @@ SETUP_SCROLLRATE_DESC
 	PL	Możliwe jest dostosowanie szybkości przewijania tekstu na ekranie. Szybkość przewijania określa czas między aktualizacjami zawartości wyświetlacza. W przypadku odtwarzacza z wyświetlaczem graficznym parametr ten można dostosować razem z opcją Przewijane piksele w celu ustawienia szybkości i jakości przewijania (tekst będzie przesuwany o wartość ustawienia Przewijane piksele co liczbę sekund określoną w opcji Szybkość przewijania). W przypadku odtwarzacza z wyświetlaczem znakowym parametr ten oznacza czas przed przewinięciem do następnego znaku. Wprowadź wartość czasu między aktualizacjami w sekundach. Mniejsze wartości powodują szybsze przewijanie. 0,15 to wartość domyślna.
 	PT	Pode ajustar a velocidade a que o texto se move no ecran. A velocidade de scrolling define o tempo entre actualizações do ecran. Num reprodutor com ecran grafico este parametro pode ser ajustado em conbinação com os Scroll Pixels para ajustar a qualidade e velocidade do scrolling (o texto mover-se-á segundo o valor do Scroll Pixels por cada valor em segundos da Velocidade de scrolling definida). Num reprodutor com ecran de texto define o tempo de duração antes da entrada do caracter seguinte. Introduza um valor em segundos para o tempo de espera entre actualizações. Quanto menor for o numero mais rápido será o scrolling. Por defeito o valor é 0,033 segundos.
 	RU	Можно настроить скорость прокрутки теста на экране. Параметр «Скорость прокрутки» определяет промежуток времени между обновлениями экрана. На плеерах с графическим экраном он настраивается совместно с параметром «Число пикселей прокрутки», при этом задается скорость и качество прокрутки (текст будет перемещаться на число пикселей прокрутки через каждые несколько секунд скорости прокрутки). На плеерах с символьным экраном этот параметр определяет промежуток времени перед прокруткой до следующего символа. Чтобы задать промежуток времени между обновлениями, введите значение в секундах. Чем меньше число, тем выше скорость. Значение по умолчанию 0,033 с.
-	SV	Du kan justera hastigheten för textremsan som rullar över skärmen. Rullningshastigheten bestämmer hur ofta informationen uppdateras. På spelare med grafisk skärm kan hastigheten kombineras med hur många bildpunkter som rullas. De två inställningarna bestämmer tillsammans hastigheten och bildkvaliteten: Texten rullar det angivna antalet bildpunkter under det angivna antalet sekunder. På spelare med teckenskärm anger detta tiden innan nästa tecken visas. Ange ett värde i sekunder för tiden mellan uppdateringarna. Ju lägre tal, desto snabbare rullar texten. 0,03 sekunder är standard.
+	SV	Du kan justera hastigheten för textremsan som rullar över skärmen. Rullningshastigheten bestämmer hur ofta informationen uppdateras. På spelare med grafisk skärm kan hastigheten kombineras med hur många bildpunkter som rullas. De två inställningarna bestämmer tillsammans hastigheten och bildkvaliteten: Texten rullar det angivna antalet bildpunkter under det angivna antalet sekunder. På spelare med teckenskärm anger detta tiden innan nästa tecken visas. Ange ett värde i sekunder för tiden mellan uppdateringarna. Ju lägre tal, desto snabbare rullar texten. 0,033 sekunder är standard.
 	ZH_CN	您可以调节文字横向卷动的速度。卷动速度也代表了显示刷新之间所需的时间。在设有图形显示屏的播放器，这个设置可与卷动映像点的设置一并进行调节已达到您所要求的显示速度和质量（文字将根据卷动映像点和卷动速度的设定组合进行卷动）。在设有字符显示屏的播放器这个设定表示卷动到下一个字符前所需的时间。输入一个以秒为单位的值，为更新之间的时间。小值使卷动更加快速。单行缺省值为0.15秒，双行缺省值为0.1秒。
 
 DOUBLE_LINE
@@ -3978,7 +3978,7 @@ INSTALLERROR_INVALID_VERSION
 	PL	Dodatek jest niezgodny z tą wersją programu Lyrion Music Server. Dokonaj aktualizacji.
 	PT	O Plugin é incompatível com esta versão do Lyrion Music Server
 	RU	Плагин несовместим с данной версией Lyrion Music Server. Обновите программу.
-	SV	Plugin-programmet är inte kompatibelt med den här versionen av Lyrion Music Server. Uppdatera.
+	SV	Plugin-programmet är inte kompatibelt med den här versionen av Lyrion Music Server. Du behöver uppdatera.
 	ZH_CN	插件与 Lyrion Music Server 的这个版本不兼容。请更新。
 
 INSTALLERROR_INCOMPATIBLE_PLATFORM
@@ -4086,7 +4086,7 @@ SETUP_FORMATSLIST_MISSING_BINARY
 	PL	Wymagany plik binarny nie został znaleziony:
 	PT	Não encontrado o binário requerido:
 	RU	Требуемый двоичный файл не найден:
-	SV	En nödvändig binärfil kunde inte hittas:
+	SV	En nödvändig binärfil hittades inte:
 	ZH_CN	所需的可执行文件不存在：
 
 FILE_FORMAT
@@ -4176,7 +4176,7 @@ SETUP_DISABLEDEXTENSIONSAUDIO_DESC
 	PL	Program Lyrion Music Server wyszuka w folderach multimediów wszystkie obsługiwane typy plików (pliki audio i informacyjne). Aby wyłączyć przetwarzanie określonych typów plików podczas przeszukiwania folderu muzyki, wprowadź listę rozszerzeń plików rozdzieloną przecinkami poniżej, np.: cue, mp4, aac
 	PT	O Lyrion Music Server procurará na Pasta de Musica por todo o tipo de ficheiros suportados (ficheiros audio ou cue). Para desactivar o processamento de ficheiros de audio específicos durante o scanning da Pasta de Musica introduza  uma lista dos tipos de ficheiros a não serem processados, separados por uma vírgula. Exemplo : cue, mp4, aac.
 	RU	Lyrion Music Server выполняет в папках мультимедиа поиск файлов всех поддерживаемых типов (аудиофайлов и плей-листов). Чтобы отключить обработку определенных типов файлов при сканировании папки с музыкальными файлами, введите список файловых расширений через запятую. Например: cue, mp4, aac.
-	SV	Lyrion Music Server söker igenom mediemapparna efter alla filtyper som stöds (ljudfiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av musikmappen kan du ange filtilläggen för de filer som ska undantas nedan i en kommaavgränsad lista. Exempel: cue, mp4, aac
+	SV	Lyrion Music Server söker igenom mediemapparna efter alla filtyper som stöds (ljudfiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av musikmappen kan du ange filtilläggen för de filer som ska undantas här nedanför i en kommaavgränsad lista. Exempel: cue, mp4, aac
 	ZH_CN	Lyrion Music Server会在音乐文件夹内寻找各式所支持的音频或cue sheet文件。 如想要把某些格式除外，便在以下输入其格式扩展名，以逗号为分隔。例如: cue, mp4, aac
 
 SETUP_DISABLEDEXTENSIONSPLAYLIST
@@ -4214,7 +4214,7 @@ SETUP_DISABLEDEXTENSIONSPLAYLIST_DESC
 	PL	Program Lyrion Music Server wyszuka w folderze list odtwarzania wszystkie obsługiwane typy plików (pliki list odtwarzania i informacyjne). Aby wyłączyć przetwarzanie określonych typów plików podczas przeszukiwania folderu list odtwarzania, wprowadź poniżej listę rozszerzeń plików rozdzieloną przecinkami, np.: m3u, pls, cue.
 	PT	O Lyrion Music Server procurará na Pasta das Listas de Repodução por todo o tipo de ficheiros suportados (Lista de Reprodução ou cue). Para desactivar o processamento de ficheirosespecíficos durante o scanning da Pasta das Listas de Repodução introduza  uma lista dos tipos de ficheiros a não serem processados, separados por uma vírgula. Exemplo : m3u, pls, cue.
 	RU	Lyrion Music Server выполняет в папке "Плей-листы" поиск всех поддерживаемых типов файлов (файлов плей-листов и микрофонных материалов). Чтобы отключить обработку определенных типов файлов при сканировании папки "Плей-листы", введите список файловых расширений через запятую. Например: m3u, pls, cue
-	SV	Lyrion Music Server söker igenom mappen med spellistor efter filer av alla de typer som stöds (spellistefiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av spellistemappen kan du ange en kommaseparerad lista över filtillägg nedan. Exempel: m3u, pls, cue
+	SV	Lyrion Music Server söker igenom mappen med spellistor efter filer av alla de typer som stöds (spellistefiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av spellistemappen kan du ange en kommaseparerad lista över filtillägg här nedanför. Exempel: m3u, pls, cue
 	ZH_CN	Lyrion Music Server会在播放表文件夹内寻找各式所支持的播放表或cue sheet文件。 如想要把某些格式除外，便在以下输入其格式扩展名，以逗号为分隔。例如: m3u, pls, cue
 
 PLAYER_TYPE
@@ -4295,6 +4295,7 @@ SETUP_PLAYER_TIMEZONE
 	EN	Player Timezone
 	FR	Fuseau horaire de la platine
 	NL	Tijdzone van de muziekspeler
+	SV	Spelarens tidszon
 
 SETUP_PLAYER_TIMEZONE_DESC
 	CS	Časová zóna přehrávače. Používá se pro zobrazení hodin a budíků.
@@ -4302,6 +4303,7 @@ SETUP_PLAYER_TIMEZONE_DESC
 	EN	The player timezone. Used for clock display and alarms.
 	FR	Le fuseau horaire de la platine, utilisé pour l'affichage de l'horloge et des alarmes.
 	NL	De tijdzone van de muziekspeler. Gebruikt voor de weergave van de klok en wekkers.
+	SV	Spelarens tidszon. Används för visning av klocka och alarm.
 
 SETUP_PLAYER_TIMEZONE_DESC_MANAGED
 	CS	Změňte časovou zónu přes nastavení zařízení.
@@ -4309,6 +4311,7 @@ SETUP_PLAYER_TIMEZONE_DESC_MANAGED
 	EN	Change the timezone via the settings on the device.
 	FR	Modifier le fuseau horaire via les paramètres de l'appareil.
 	NL	Verander de tijdzone middels het menu op de speler.
+	SV	Ändra tidszonen via inställningarna på spelaren.
 
 SETUP_PLAYER_TIMEZONE_SERVER
 	CS	Časová zóna serveru
@@ -4316,6 +4319,7 @@ SETUP_PLAYER_TIMEZONE_SERVER
 	EN	Server timezone
 	FR	Fuseau horaire du serveur
 	NL	Tijdzone van de server
+	SV	Serverns tidszon
 
 SETUP_PLAYERNAME
 	CS	Název přehrávače
@@ -4661,7 +4665,7 @@ SETUP_PLAYINGDISPLAYMODE_ABBR
 	PL	Informacje o teraz odtwarzanych
 	PT	Informação do que está tocando
 	RU	Информация о воспроизводимой дорожке
-	SV	Nu spelas-information
+	SV	Nu spelas-info
 	ZH_CN	播放中信息
 
 SETUP_PLAYINGDISPLAYMODE_DESC
@@ -4825,7 +4829,7 @@ SETUP_SYNCVOLUME_DESC
 	PL	Poziom głośności zsynchronizowanych odtwarzaczy może być przez nie śledzony lub można ustawić go niezależnie. Wybierz opcję poniżej i kliknij przycisk Zmień.
 	PT	Aqui pode activar ou desactivar a sincronização do volume entre os vários reprodutores. Altere abaixo e clique em "Modificar"
 	RU	Можно задать синхронизируемые или независимые уровни громкости для синхронизованных плееров. Выберите нужный вариант и нажмите кнопку "Изменить".
-	SV	Du kan välja om synkroniserade spelare ska ha samma volymnivå eller om de ska vara oberoende. Välj nedan och klicka sedan på Ändra.
+	SV	Du kan välja om synkroniserade spelare ska ha samma volymnivå eller om de ska vara oberoende. Välj här nedanför och klicka sedan på Ändra.
 	ZH_CN	您可以选择将同步小组内的播放器的音量独立化或进行全体音量即时追踪同步化。请选择并点击《更动》。
 
 SETUP_SYNCPOWER_ON
@@ -4906,7 +4910,7 @@ SETUP_SYNCPOWER_DESC
 	PL	Odtwarzacz ten może wyłączać się samodzielnie lub jako grupa z innymi odtwarzaczami. Wybierz opcję poniżej i kliknij przycisk Zmień.
 	PT	Pode escolher que este reprodutor se desligue sozinho ou que se apague junto com todos os outros reprodutores do grupo com que está sincronização. Faça a selecção abaixo e prima Alterar.
 	RU	Можно выбрать, будет ли данный плеер выключаться отдельно или вместе с другими плеерами данной группы. Выберите нужный вариант и нажмите кнопку "Изменить".
-	SV	Du kan välja att låta den här spelaren stängas av oberoende av andra spelare, eller tillsammans med andra spelare i en grupp. Gör dina val nedan och klicka sedan på Ändra.
+	SV	Du kan välja att låta den här spelaren stängas av oberoende av andra spelare, eller tillsammans med andra spelare i en grupp. Gör dina val här nedanför och klicka sedan på Ändra.
 	ZH_CN	您可以选择将这个播放器的电源切断独立化、或与其他播放器小组一起切断。请选择并点击《更动》。
 
 SETUP_DIGITALVOLUMECONTROL_ON
@@ -4942,7 +4946,7 @@ SETUP_DIGITALVOLUMECONTROL_OFF
 	PL	Poziom sygnału wyjściowego jest stały i ma wartość 100%
 	PT	O nível de saída fixa-se em 100%
 	RU	Заданный уровень выхода — 100%
-	SV	Nivån för utsignalen är konstant 100 %
+	SV	Utgångsnivån är fastställd till 100%
 	ZH_CN	输出级别固定为100%
 
 SETUP_DIGITALVOLUMECONTROL
@@ -4978,7 +4982,7 @@ SETUP_DIGITALVOLUMECONTROL_DESC
 	PL	Jeżeli do sterowania głośnością używany jest regulator wzmacniacza lub wymagane jest przesyłanie sygnału cyfrowego wysokiej jakość, możliwe jest stałe ustawienie poziomu głośności na 100%. Ma to wpływ na głośność cyfrową i analogową.
 	PT	Pode fixar o controle do volume em 100% se usar o controle de volume do seu amplificador para controlar o Loudness ou se precisa de um passhem perfeita pelo digital. Isto afecta tanto o volume digital como o analógico.
 	RU	Можно установить уровень громкости 100%, если громкость настраивается на усилителе или требуется безупречное качество цифровой передачи. Этот параметр влияет на громкость цифрового и аналогового сигнала.
-	SV	Du kan ställa in volymen på 100% om du använder volymkontrollen på förstärkaren för att justera ljudnivån eller om du vill ha perfekt digital genomströmning. Detta påverkar både digital och analog volym.
+	SV	Du kan ställa in volymkontrollen på 100 % om du använder volymkontrollen på din förstärkare för att kontrollera ljudstyrkan eller behöver perfekt digital genomströmning. Detta påverkar både digital och analog volym.
 	ZH_CN	可以将音量控制固定在100%，如果使用的是放大器的音量控制或需要完美的数字直通。这会影响数字和模拟音量。
 
 SETUP_PREAMPVOLUMECONTROL
